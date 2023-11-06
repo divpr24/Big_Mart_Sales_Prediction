@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Big Mart Sales Prediction </title>
+</head>
+<body>
+	<h2> Big Mart Sales Prection of the Outlet </h2>
+	<h3> Enter the following attributes </h3>
+	<form>
+		<label>Item Weight</label><br>
+		<input type="text" name="item_weight", placeholder = "Input (0-21)kg"><br><br>
+
+		<label>Item Fat Content</label><br>
+		<input type="radio" name="low_fat">Low Fat<br>
+		<input type="radio" name="regular">Regular<br><br>
+
+		The Score is {{score}}.
+
+		<label>Item Visibility</label><br>
+		<input type="text" name="item_weight", placeholder = "Input between (0-4)"><br><br>
+
+		<label for="Item Type">Item Type</label><br>
+		<select name = "Outlet_Type" id = "Outlet_Type">
+			<option value = "Breads">Breads</option>
+			<option value = "Breakfast">Breakfast</option>
+			<option value = "Canned">Canned</option>
+			<option value = "Dairy">Dairy</option>
+			<option value = "Frozen_Foods">Frozen_Foods</option>
+			<option value = "Fruits_and_Vegetables">Fruits_and_Vegetables</option>
+			<option value = "Hard_Drinks">Hard_Drinks</option>
+			<option value = "Health_and_Hygiene">Health_and_Hygiene</option>
+			<option value = "House_Hold">House_Hold</option>
+			<option value = "Meat">Meat</option>
+			<option value = "Sea_Foods">Sea_Foods</option>
+			<option value = "Soft_Drinks">Soft_Drinks</option>
+			<option value = "Startchy_Foods">Startchy_Foods</option>
+			<option value = "others">others</option>
+
+		</select><br><br>
+
+		<label>Item MRP</label><br>
+		<input type="text" name="item_mrp", placeholder = "Input (5$-300$)"><br><br>
+
+		<label>Outlet Establishment Year</label><br>
+		<input type="text" name="est_year"><br><br>
+
+		<label>Outlet Size</label><br>
+		<input type="radio" name="outlet_size">Small<br>
+		<input type="radio" name="outlet_size">Medium<br>
+		<input type="radio" name="outlet_size">High<br><br>
+		
+
+		<label>Outlet Location Type</label><br>
+		<input type="radio" name="outlet_location">Tier 1<br>
+		<input type="radio" name="outlet_location">Tier 2<br>
+		<input type="radio" name="outlet_location">Tier 3<br><br>
+
+		<label for="Outlet_Type">Outlet_Type</label><br>
+		<select name = "Outlet_Type" id = "Outlet_Type">
+			<option value = "Super_Market_Type_1">Super_Market_Type_1</option>
+			<option value = "Super_Market_Type_2">Super_Market_Type_2</option>
+			<option value = "Super_Market_Type_3">Super_Market_Type_3</option>
+		</select><br><br>
+		<input type="Reset" name="">
+		<input type="Submit" name="">
+	</form>
+
+</body>
+</html>
